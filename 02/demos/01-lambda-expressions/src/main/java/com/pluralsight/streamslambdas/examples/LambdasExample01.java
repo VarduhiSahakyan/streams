@@ -23,7 +23,7 @@ public class LambdasExample01 {
         // Interface Comparator implemented with a lambda expression.
 
 
-        products.sort((p1 , p2)-> p1.getPrice().compareTo(p2.getPrice()));
+        products.sort((person1 , person2)-> person1.getPrice().compareTo(person2.getPrice()));
 
         // The same with a more verbose syntax:
         // - You can optionally specify the type of the parameters
