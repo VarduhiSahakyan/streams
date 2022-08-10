@@ -5,17 +5,16 @@ import com.pluralsight.streamslambdas.Category;
 import com.pluralsight.streamslambdas.ExampleData;
 import com.pluralsight.streamslambdas.Product;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public class LambdasExample07 {
 
     interface ProductFactory {
-        Product create(Category category, String name, BigDecimal price);
+        Product create(Category category, String name, Double price);
     }
 
     static boolean isExpensive(Product product) {
-        return product.getPrice().compareTo(new BigDecimal("5.00")) >= 0;
+        return product.getPrice().compareTo(5.00) >= 0;
     }
 
     public static void main(String[] args) {
@@ -40,7 +39,7 @@ public class LambdasExample07 {
 
         // A method reference with 'new' after the double colon refers to a constructor.
         ProductFactory factory = Product::new;
-        Product blueberries = factory.create(Category.FOOD, "Blueberries", new BigDecimal("6.95"));
+        Product blueberries = factory.create(Category.FOOD, "Blueberries", 6.95);
         System.out.println(blueberries);
     }
 }

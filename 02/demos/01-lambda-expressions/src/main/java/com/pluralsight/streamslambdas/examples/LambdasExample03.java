@@ -4,7 +4,7 @@ package com.pluralsight.streamslambdas.examples;
 import com.pluralsight.streamslambdas.ExampleData;
 import com.pluralsight.streamslambdas.Product;
 
-import java.math.BigDecimal;
+
 import java.util.List;
 
 public class LambdasExample03 {
@@ -14,6 +14,7 @@ public class LambdasExample03 {
     }
 
     // Print the products that are accepted by the filter.
+    // use functional interface for check
     static void printProducts(List<Product> products, ProductFilter filter) {
         for (Product product : products) {
             if (filter.accept(product)) {
@@ -25,7 +26,7 @@ public class LambdasExample03 {
     public static void main(String[] args) {
         List<Product> products = ExampleData.getProducts();
 
-        BigDecimal priceLimit = new BigDecimal("5.00");
+        Double priceLimit = 5.00;
 
         // This lambda expression captures the local variable priceLimit.
         // The variable must be effectively final; if it is not, an error will appear in the lambda expression.

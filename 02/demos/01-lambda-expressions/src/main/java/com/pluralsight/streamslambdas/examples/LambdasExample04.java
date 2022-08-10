@@ -4,7 +4,6 @@ package com.pluralsight.streamslambdas.examples;
 import com.pluralsight.streamslambdas.ExampleData;
 import com.pluralsight.streamslambdas.Product;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public class LambdasExample04 {
@@ -12,7 +11,7 @@ public class LambdasExample04 {
     public static void main(String[] args) {
         List<Product> products = ExampleData.getProducts();
 
-        BigDecimal priceLimit = new BigDecimal("5.00");
+        Double priceLimit = 5.00;
 
         int numberOfCheapProducts = 0;
 
