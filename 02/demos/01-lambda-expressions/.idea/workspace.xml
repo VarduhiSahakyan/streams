@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b078cb0-c2b7-4cdd-a489-0acf267a2177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample02.java" afterDir="false" />
       <change beforePath="D:/APM" beforeDir="false" afterPath="D:/APM" afterDir="false" />
       <change beforePath="D:/GlobomanticsHR" beforeDir="false" afterPath="D:/GlobomanticsHR" afterDir="false" />
       <change beforePath="D:/airoportManyToMany" beforeDir="false" afterPath="D:/airoportManyToMany" afterDir="false" />
       <change beforePath="D:/bike" beforeDir="false" afterPath="D:/bike" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/exercises/LambdasExercise01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/exercises/LambdasExercise02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/exercises/LambdasExercise03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise01Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise01Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise02Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise02Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise03Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise03Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/streamslambdas/exercises/LambdasExercise01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/streamslambdas/exercises/LambdasExercise02$ProductFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/streamslambdas/exercises/LambdasExercise02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/streamslambdas/exercises/LambdasExercise03$ShoppingCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/streamslambdas/exercises/LambdasExercise03$ShoppingCartFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/streamslambdas/exercises/LambdasExercise03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pluralsight/streamslambdas/exercises/LambdasExercise01Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pluralsight/streamslambdas/exercises/LambdasExercise02Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pluralsight/streamslambdas/exercises/LambdasExercise03Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,11 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,10 +147,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/functionalinterfacesexamples/FunctionalInterfacesExample03.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/ExampleData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/functionalinterfacesexamples/FunctionalInterfacesExample04.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample01.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise03Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise02Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/streamslambdas/exercises/LambdasExercise01Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample02.java" />
       </list>
     </option>
   </component>
@@ -274,9 +272,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BasicStreamsExample01">
+  <component name="RunManager" selected="Application.BasicStreamsExample02">
     <configuration name="BasicStreamsExample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.streamslambdas.streamexamples.BasicStreamsExample01" />
+      <module name="01-lambda-expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.streamslambdas.streamexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicStreamsExample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.streamslambdas.streamexamples.BasicStreamsExample02" />
       <module name="01-lambda-expressions" />
       <extension name="coverage">
         <pattern>
@@ -327,26 +338,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasExample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.streamslambdas.lambdaexamples.LambdasExample04" />
-      <module name="01-lambda-expressions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.streamslambdas.lambdaexamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicStreamsExample02" />
         <item itemvalue="Application.BasicStreamsExample01" />
         <item itemvalue="Application.FunctionalInterfacesExample04" />
         <item itemvalue="Application.FunctionalInterfacesExample02" />
         <item itemvalue="Application.FunctionalInterfacesExample01" />
-        <item itemvalue="Application.LambdasExample04" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +358,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660132451694</updated>
-      <workItem from="1660132454924" duration="19389000" />
+      <workItem from="1660132454924" duration="22770000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1660133430145</created>
@@ -373,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19389000" />
+    <option name="totallyTimeSpent" value="22770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -451,7 +449,8 @@
     <MESSAGE value="functional interfaces examples" />
     <MESSAGE value="Function interface use example" />
     <MESSAGE value="Predicate interface use example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Predicate interface use example" />
+    <MESSAGE value="simple stream use example" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple stream use example" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.13/lib/src.zip!/java.base/java/util/Comparator.java">
@@ -657,8 +656,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/streamslambdas/streamexamples/BasicStreamsExample02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
