@@ -36,7 +36,7 @@ public class FunctionalInterfacesExample02 {
             // Function<Category, List<Product>> to create the List if there is no entry in the Map for the category.
             productsByCategory.computeIfAbsent(category, c -> new ArrayList<>()).add(p);
         }
-        // Map.forEach() takes a BiConsumer (a Consumer which takes two parameters); the key and value of each entry.
+        // Map.forEach() takes a BiConsumer (a Consumer which takes two parameters no output(void)); the key and value of each entry.
         productsByCategory.forEach(((category, products1) -> {
             System.out.println("Category: " + category);
             products1.forEach(product -> System.out.println("- " + product.getName()));
