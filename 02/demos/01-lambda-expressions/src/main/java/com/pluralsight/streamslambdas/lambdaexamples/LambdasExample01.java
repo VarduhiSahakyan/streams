@@ -1,5 +1,5 @@
 
-package com.pluralsight.streamslambdas.examples;
+package com.pluralsight.streamslambdas.lambdaexamples;
 
 import com.pluralsight.streamslambdas.ExampleData;
 import com.pluralsight.streamslambdas.Product;

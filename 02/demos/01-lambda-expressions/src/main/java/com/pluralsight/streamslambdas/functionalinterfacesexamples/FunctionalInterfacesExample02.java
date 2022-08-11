@@ -1,5 +1,4 @@
-
-package com.pluralsight.streamslambdas.examples;
+package com.pluralsight.streamslambdas.functionalinterfacesexamples;
 
 import com.pluralsight.streamslambdas.Category;
 import com.pluralsight.streamslambdas.ExampleData;
@@ -31,18 +30,17 @@ public class FunctionalInterfacesExample02 {
         }
 
         // With Map.computeIfAbsent()
-        for (Product product : products) {
-            Category category = product.getCategory();
-
+        for (Product p :products) {
+            Category category = p.getCategory();
             // computeIfAbsent() gets the existing List for the category, or calls the given
             // Function<Category, List<Product>> to create the List if there is no entry in the Map for the category.
-            productsByCategory.computeIfAbsent(category, c -> new ArrayList<>()).add(product);
+            productsByCategory.computeIfAbsent(category, c -> new ArrayList<>()).add(p);
         }
-
         // Map.forEach() takes a BiConsumer (a Consumer which takes two parameters); the key and value of each entry.
-        productsByCategory.forEach((category, ps) -> {
+        productsByCategory.forEach(((category, products1) -> {
             System.out.println("Category: " + category);
-            ps.forEach(product -> System.out.println("- " + product.getName()));
-        });
+            products1.forEach(product -> System.out.println("- " + product.getName()));
+        }));
+
     }
 }

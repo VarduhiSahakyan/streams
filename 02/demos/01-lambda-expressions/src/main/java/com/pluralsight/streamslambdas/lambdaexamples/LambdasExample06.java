@@ -1,5 +1,5 @@
 
-package com.pluralsight.streamslambdas.examples;
+package com.pluralsight.streamslambdas.lambdaexamples;
 
 import com.pluralsight.streamslambdas.ExampleData;
 import com.pluralsight.streamslambdas.Product;
@@ -18,6 +18,7 @@ public class LambdasExample06 {
 //                writer.write(product.toString() + "\n");
 //            }
 
+             // bed practice use lambda for exception hendling
             // According to forEach(), the lambda expression implements interface Consumer. The accept() method
             // of this interface does not declare any checked exceptions, so the lambda expression is not allowed
             // to throw any checked exceptions. We are forced to handle the IOException inside the lambda expression.

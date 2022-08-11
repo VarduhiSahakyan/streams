@@ -1,5 +1,4 @@
-
-package com.pluralsight.streamslambdas.examples;
+package com.pluralsight.streamslambdas.functionalinterfacesexamples;
 
 import com.pluralsight.streamslambdas.ExampleData;
 import com.pluralsight.streamslambdas.Product;
@@ -9,15 +8,14 @@ import java.util.Optional;
 import java.util.function.Predicate;
 
 public class FunctionalInterfacesExample01 {
-
+    // method to find the product of list
     // Go through a list of products, and return the first product for which the predicate returns true.
-    static Optional<Product> findProduct(List<Product> products, Predicate<Product> predicate) {
-        for (Product product : products) {
-            if (predicate.test(product)) {
-                return Optional.of(product);
+    static Optional<Product> findProduct(List<Product> products , Predicate<Product> predicate){
+        for (Product p : products) {
+            if (predicate.test(p)){
+                return Optional.of(p);
             }
-        }
-        return Optional.empty();
+        } return Optional.empty();
     }
 
     public static void main(String[] args) {
@@ -33,8 +31,12 @@ public class FunctionalInterfacesExample01 {
 
         findProduct(products, product -> product.getName().equals(name))
                 .map(Product::getPrice)
-                .ifPresentOrElse(
-                        price -> System.out.printf("The price of %s is $ %.2f%n", name, price),
-                        () -> System.out.printf("%s is not available%n", name));
+        .ifPresentOrElse(
+                // Consumer impl for value
+                price -> System.out.printf("The price of %s is $ %.2f%n", name , price),
+                // Runnable impl for empty
+                () -> System.out.printf("%s is not available%n", name)
+        );
     }
+
 }
